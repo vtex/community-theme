@@ -1,0 +1,21 @@
+{
+  "name": "VTEX Community",
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "color_schemes": {
+      "Rebel Pink Dark": {
+        "primary": "FFC4DD",
+        "secondary": "FFE0EF",
+        "tertiary": "FFC4DD",
+        "quaternary": "CB4B16",
+        "header_background": "2B3647",
+        "header_primary": "CCCED8",
+        "highlight": "F4F6FB",
+        "danger": "DC5A41",
+        "success": "79A479",
+        "love": "E31C58"
+      }
+  }
+}
