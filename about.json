@@ -5,17 +5,18 @@
   "assets": {
   },
   "color_schemes": {
-      "Rebel Pink Dark": {
-        "primary": "FFC4DD",
-        "secondary": "FFE0EF",
-        "tertiary": "FFC4DD",
+      "Serious Black": {
+        "primary": "FFFFFF",
+        "secondary": "142032",
+        "tertiary": "E7E9EE",
         "quaternary": "CB4B16",
         "header_background": "2B3647",
         "header_primary": "CCCED8",
         "highlight": "F4F6FB",
         "danger": "DC5A41",
         "success": "79A479",
-        "love": "E31C58"
+        "love": "E31C58",
+        "primary-med-or-secondary-high": "FFFFFF"
       }
   }
 }
