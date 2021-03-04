@@ -1,15 +1,3 @@
-// $primary 	Most text, icons, and borders
-// $secondary 	The main background color, and text color of some buttons
-// $tertiary 	Links, some buttons, notifications, and accent color
-// $quaternary 	Navigation links
-// $header_background 	Background color of the site’s header
-// $header_primary 	Text and icons in the site’s header
-// $highlight 	The background color of highlighted elements on the page, such as posts and topics
-// $danger 	Highlight color for actions like deleting posts and topics
-// $success 	Used to indicate an action was successful
-// $love 	The like button’s color
-
-
 {
   "name": "VTEX Community",
   "about_url": null,
@@ -27,7 +15,8 @@
         "highlight": "F4F6FB",
         "danger": "DC5A41",
         "success": "79A479",
-        "love": "E31C58"
+        "love": "E31C58",
+        "primary-med-or-secondary-high": "FFFFFF"
       }
   }
 }
