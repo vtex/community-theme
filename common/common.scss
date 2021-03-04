@@ -1,0 +1,136 @@
+// https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
+
+
+$botton-background: #FFE0EF;
+$botton-color: #323845;
+
+//use Roboto font
+html {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+body input,
+body button,
+body select,
+body textarea {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+@mixin boxShadow {
+  // Matched from https://material.io/components/cards/
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+@mixin buttonShadow {
+  // Matched from https://material.io/components/buttons/
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+//remove shadow from a few buttons
+.d-editor-button-bar .btn,
+.bulk-select-all,
+.bulk-clear-all,
+.period-chooser-header,
+.topic-map .btn.no-text,
+.badge-section .btn,
+#revision .btn,
+#new-account-link,
+#login-link {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+// Topic adjustments
+
+.small-action {
+  border-top: none;
+  margin-top: 1em;
+  max-width: 808px;
+  button {
+    margin-left: 1em;
+    background-color: lighten($secondary, 10%);
+  }
+}
+
+.read-state {
+  right: 1em;
+}
+
+.gap {
+  margin-top: 1em;
+}
+
+.post-notice {
+  border: none;
+  background: transparent;
+  margin-left: 50px;
+  margin-top: 0.75em;
+}
+
+.popup-menu .btn {
+  box-shadow: none;
+}
+
+// Botton category
+
+
+
+.navigation-container {
+  .select-kit.combo-box {
+    .select-kit-header {
+      background: $botton-background;
+      color: $botton-color;
+      border-radius: 100px;
+
+    }
+  }
+}
+
+// Nav Pills
+.nav-pills {
+  & > li a {
+    padding: 0;
+    margin-right: 20px;
+    color: $tertiary-high;
+    border-bottom: 4px solid transparent;
+
+    &.active {
+      color: $tertiary;
+      background-color: $secondary;
+      border-bottom: 4px solid $tertiary;
+    }
+
+    &:hover {
+      color: $tertiary;
+      background-color: $secondary;
+      border-bottom: 4px solid $primary;
+    }
+  }
+}
+
+.btn {
+  background-color: $header-background;
+  color: $primary;
+  border-radius: 100px;
+  border: 1px solid $primary-low-mid;
+
+  .d-icon {
+    color: $primary;
+  }
+
+  &:hover {
+    background-color: $quaternary-low;
+    color: $primary;
+    .d-icon {
+      color: $primary;
+    }
+  }
+
+  &.btn-default,
+  &.btn-primary {
+    padding: 10px 12px;
+  }
+}
