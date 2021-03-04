@@ -134,3 +134,24 @@ body textarea {
     padding: 10px 12px;
   }
 }
+
+.category-list.with-topics{
+
+  border-color: #38383800;
+  border-spacing: 10px;
+  border-collapse: separate;
+
+  tr {
+    border-bottom: 1px solid #38383800;
+    margin-bottom: 1px;
+  }
+
+  tbody {
+    border-top: 3px solid #38383800;
+  }
+
+  td.latest {
+    border: 1px solid $botton-background;
+    border-radius: 5px;
+  }
+}
