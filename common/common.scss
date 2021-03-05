@@ -1,6 +1,7 @@
 // https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
 
 $rebel-pink: #F71963;
+$white: #FFFFFF;
 
 //use Roboto font
 html {
@@ -133,15 +134,11 @@ body textarea {
   }
 }
 
-.header-buttons {
-  color: $primary;
-}
-
 .sign-up-button, .login-button {
   background-color: $rebel-pink;
   border-radius: 0px;
   font-weight: bold;
-  color: $primary;
+  color: $white;
 }
 
 .category-list.with-topics {
