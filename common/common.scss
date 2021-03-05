@@ -1,9 +1,5 @@
 // https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
 
-
-$botton-background: #FFE0EF;
-$botton-color: #323845;
-
 //use Roboto font
 html {
   font-family: "Roboto", sans-serif;
@@ -82,7 +78,7 @@ body textarea {
   .select-kit.combo-box {
     .select-kit-header {
       background: $primary;
-      color: $botton-color;
+      color: $secondary;
       border-radius: 100px;
 
     }
