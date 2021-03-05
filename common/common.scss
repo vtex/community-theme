@@ -139,6 +139,9 @@ body textarea {
   border-radius: 0px;
   font-weight: bold;
   color: $white;
+  .d-icon {
+    color: inherit;
+  }
 }
 
 .category-list.with-topics {
