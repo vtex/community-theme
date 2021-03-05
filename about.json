@@ -29,6 +29,23 @@
         "success": "79A479",
         "love": "E31C58",
         "primary-med-or-secondary-high": "FFFFFF"
+      },
+
+      "Pink Rabel": {
+        "primary": "4A4A4A",
+        "secondary": "FFFFFF",
+        "tertiary": "142032",
+        "quaternary": "E31C58",
+        "header_background": "FFFFFF",
+        "header_primary": "F71963",
+        "highlight": "E7E9EE",
+        "danger": "DC5A41",
+        "success": "79A479",
+        "love": "E31C58",
+        "tertiary-low": "E7E9EE",
+        "primary-medium": "E31C58",
+        "primary-med-or-secondary-high": "4A4A4A"
       }
+
   }
 }
