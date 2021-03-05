@@ -81,7 +81,7 @@ body textarea {
 .navigation-container {
   .select-kit.combo-box {
     .select-kit-header {
-      background: $botton-background;
+      background: $primary;
       color: $botton-color;
       border-radius: 100px;
 
@@ -135,10 +135,15 @@ body textarea {
   }
 }
 
-.category-list.with-topics{
+.sign-up-button, .login-button {
+  background-color: $quaternary;
+  border-radius: 0px;
+}
+
+.category-list.with-topics {
 
   border-color: #38383800;
-  border-spacing: 10px;
+  border-spacing: 5px;
   border-collapse: separate;
 
   tr {
@@ -150,8 +155,8 @@ body textarea {
     border-top: 3px solid #38383800;
   }
 
-  td.latest {
-    border: 1px solid $botton-background;
-    border-radius: 5px;
-  }
+}
+
+.category-list tbody .category{
+  border-left: 4px solid;
 }
