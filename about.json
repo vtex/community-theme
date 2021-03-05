@@ -31,7 +31,7 @@
         "primary-med-or-secondary-high": "FFFFFF"
       },
 
-      "Pink Rabel": {
+      "Pink Rebel": {
         "primary": "4A4A4A",
         "secondary": "FFFFFF",
         "tertiary": "142032",
@@ -45,6 +45,5 @@
         "tertiary-low": "E7E9EE",
         "primary-med-or-secondary-high": "4A4A4A"
       }
-
   }
 }

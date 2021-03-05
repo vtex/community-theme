@@ -1,5 +1,7 @@
 // https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
 
+$rebel-pink: #F71963;
+
 //use Roboto font
 html {
   font-family: "Roboto", sans-serif;
@@ -132,7 +134,7 @@ body textarea {
 }
 
 .sign-up-button, .login-button {
-  background-color: $quaternary;
+  background-color: $rebel-pink;
   border-radius: 0px;
   font-weight: bold;
 }
