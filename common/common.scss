@@ -161,3 +161,7 @@ body textarea {
 .category-list tbody .category{
   border-left: 4px solid;
 }
+
+.categories-list .category .category-description, .category-list .featured-topic .title {
+  color: $primary;
+}
