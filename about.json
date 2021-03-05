@@ -21,7 +21,7 @@
         "primary": "FFFFFF",
         "secondary": "142032",
         "tertiary": "E7E9EE",
-        "quaternary": "E31C58",
+        "quaternary": "FFFFFF",
         "header_background": "2B3647",
         "header_primary": "CCCED8",
         "highlight": "F4F6FB",
@@ -43,7 +43,6 @@
         "success": "79A479",
         "love": "E31C58",
         "tertiary-low": "E7E9EE",
-        "primary-medium": "E31C58",
         "primary-med-or-secondary-high": "4A4A4A"
       }
 

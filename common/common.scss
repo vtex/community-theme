@@ -76,6 +76,9 @@ body textarea {
   .select-kit.combo-box {
     .select-kit-header {
       border-radius: 100px;
+      padding: 5px;
+      background-color: rgba($quaternary, 0.1);
+      border-color: $quaternary;
     }
   }
 }
@@ -83,21 +86,23 @@ body textarea {
 // Nav Pills
 .nav-pills {
   & > li a {
-    padding: 0;
+    padding: 10px;
     margin-right: 20px;
     color: $tertiary-high;
-    border-bottom: 4px solid transparent;
 
     &.active {
-      color: $tertiary;
-      background-color: $secondary;
-      border-bottom: 4px solid $tertiary;
+      color: $secondary;
+      background-color: $quaternary;
+      border-radius: 100px;
+      border: 1px solid quaternary;
+
     }
 
     &:hover {
-      color: $tertiary;
+      color: $tertiary-high;
       background-color: $secondary;
-      border-bottom: 4px solid $primary;
+      border-radius: 100px;
+      border: 1px solid $quaternary;
     }
   }
 }
