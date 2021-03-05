@@ -1,8 +1,6 @@
 // https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
 
-
-$botton-background: #FFE0EF;
-$botton-color: #323845;
+$rebel-pink: #F71963;
 
 //use Roboto font
 html {
@@ -76,15 +74,13 @@ body textarea {
 
 // Botton category
 
-
-
 .navigation-container {
   .select-kit.combo-box {
     .select-kit-header {
-      background: $primary;
-      color: $botton-color;
       border-radius: 100px;
-
+      padding: 5px;
+      background-color: rgba($quaternary, 0.1);
+      border-color: $quaternary;
     }
   }
 }
@@ -92,21 +88,23 @@ body textarea {
 // Nav Pills
 .nav-pills {
   & > li a {
-    padding: 0;
+    padding: 10px;
     margin-right: 20px;
     color: $tertiary-high;
-    border-bottom: 4px solid transparent;
 
     &.active {
-      color: $tertiary;
-      background-color: $secondary;
-      border-bottom: 4px solid $tertiary;
+      color: $secondary;
+      background-color: $quaternary;
+      border-radius: 100px;
+      border: 1px solid quaternary;
+
     }
 
     &:hover {
-      color: $tertiary;
+      color: $tertiary-high;
       background-color: $secondary;
-      border-bottom: 4px solid $primary;
+      border-radius: 100px;
+      border: 1px solid $quaternary;
     }
   }
 }
@@ -136,7 +134,7 @@ body textarea {
 }
 
 .sign-up-button, .login-button {
-  background-color: $quaternary;
+  background-color: $rebel-pink;
   border-radius: 0px;
   font-weight: bold;
 }
