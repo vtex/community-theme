@@ -9,7 +9,12 @@ Run `discourse_theme watch ./` to monitor theme changes.
 
 ## References
 
+https://www.figma.com/file/AFIsgoReKwcvqxPZUpiVkm/VTEX-Community?node-id=2832%3A51
+
+
+https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966
 https://meta.discourse.org/t/how-to-develop-custom-themes/60848
+https://meta.discourse.org/t/designers-guide-to-discourse-themes/152002
 
 
 ### Structure
