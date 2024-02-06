@@ -162,7 +162,7 @@ body textarea {
 }
 
 .category-list tbody .category{
-  border-left: 4px solid var(--category-color, var(--primary-low));
+  border-left: 4px solid var(--category-badge-color, var(--primary-low));
 }
 
 .categories-list .category .category-description, .category-list .featured-topic .title {
